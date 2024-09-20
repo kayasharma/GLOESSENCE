@@ -1,0 +1,98 @@
+.productdisplay {
+  display: flex;
+  margin: 0px 90px;
+}
+.productdisplay-left {
+  display: flex;
+  gap: 17px;
+}
+.productdisplay-img-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.productdisplay-img-list img {
+  height: 140px;
+}
+.productdisplay-main-img {
+  width: 566px;
+  height: 600px;
+}
+.productdisplay-right {
+  margin: 0px 20px;
+  max-width: 600px; /* Add max-width to prevent overflow */
+}
+
+.productdisplay-right h1 {
+  color: #3d3d3d;
+  font-size: 40px;
+  font-weight: 700;
+  word-wrap: break-word; /* Allow long text to wrap */
+  max-width: 100%; /* Ensure full use of available width */
+}
+
+.productdisplay-right-star {
+  display: flex;
+  align-items: center;
+  margin-top: 1px;
+  gap: 3px;
+  color: #1c1c1c;
+  font-size: 16px;
+}
+
+.productdisplay-right-prices {
+  display: flex;
+  flex-wrap: wrap; /* Ensure prices wrap on smaller screens */
+  margin: 20px 0px;
+  gap: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.productdisplay-right-prices-old {
+  color: #818181; /* Fix the typo here, "columns" is not a valid property */
+  text-decoration: line-through;
+}
+
+.productdisplay-right-prices-new {
+  color: #ff4141;
+}
+
+.productdisplay-right-size h1 {
+  margin-top: 55px;
+  color: #656565;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.productdisplay-right-size div {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for a better UX */
+}
+
+.productdisplay-right-size div:hover {
+  background-color: #f0f0f0; /* Simple hover effect */
+}
+
+.productdisplay-right-category {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #656565;
+}
+.productdisplay-right button {
+  padding: 20px 30px;
+  width: 150px;
+  height: 70px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  background: #ff4141;
+  margin-top: 77px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}

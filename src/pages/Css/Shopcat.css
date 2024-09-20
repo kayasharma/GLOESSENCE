@@ -1,0 +1,85 @@
+/* General banner styling */
+.shop-category img {
+  margin-top: 100px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover; /* Ensure the banner image scales well */
+}
+
+/* Banner alignment */
+.shopcategory-banner {
+  display: block;
+  margin: 30px auto;
+  max-width: 100%; /* Ensure the banner doesn't overflow */
+}
+
+/* Sorting and product counter section */
+.shopcategory-indexsort {
+  display: flex;
+  margin: 0px 170px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shop-category-sort {
+  border: 1px solid #888;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.shopcategory-indexsort p span {
+  font-weight: 600;
+}
+
+/* Product grid layout */
+.shopcategory-products {
+  margin: 20px 100px;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(250px, 1fr)
+  ); /* More responsive grid */
+  gap: 50px 60px; /* Adjust the gap between rows and columns */
+  justify-items: center; /* Center items in the grid horizontally */
+  align-items: center;
+  border-radius: none;
+  box-shadow: none;
+  /* Center items vertically */
+}
+
+/* Individual item styling */
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center item content */
+  justify-content: center;
+  text-align: center;
+
+  /* Center text content */
+}
+
+.item img {
+  width: 100%; /* Image fills its container */
+  max-width: 180px; /* Set a max width to ensure consistency */
+  height: auto;
+  margin-top: 1px;
+  border-radius: 8px;
+  margin-bottom: 10px; /* Add space between the image and details */
+  object-fit: cover; /* Ensure images don't stretch */
+}
+
+/* Load more button */
+.shopcategory-loadmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+  width: 233px;
+  height: 69px;
+  border-radius: 75px;
+  background: #ededed;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}

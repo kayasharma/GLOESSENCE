@@ -1,0 +1,86 @@
+/* HeroNew.css */
+
+/* Container Styles */
+.hero {
+  margin-top: 100px;
+
+  background-color: #fedcfe;
+  display: flex;
+  flex-direction: row; /* Changed from column to row to align items horizontally */
+  align-items: center;
+  justify-content: space-between;
+  /* Center align items vertically */
+  /* Add space between the left and right sections */
+}
+
+/* Left Section Styles */
+.hero-left {
+  display: flex;
+
+  flex-direction: column;
+  margin-top: 15px;
+  flex: 1;
+  justify-content: center;
+}
+.hero-left h2 {
+  color: black;
+  margin-left: 15px;
+}
+.hand-icon {
+  width: 5px;
+  height: 20px;
+  margin-left: 2px;
+}
+.hand-icon p {
+  font-size: 1.3rem;
+}
+.hero p {
+  font-size: 1.3rem;
+  margin-left: 17px;
+}
+
+/* Right Section Styles */
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+
+  flex: 1; /* Adjusting width of the right section */
+}
+
+/* Hand Icon Styles */
+.hand-icon {
+  display: flex;
+  padding: 1px;
+  align-items: center;
+}
+
+.hand-icon-img {
+  max-width: 30px;
+}
+
+/* Button Styles */
+.hero-latest-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  gap: 15px;
+  width: 310px;
+  height: 45px;
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background: #ff4141;
+  color: white;
+  font-size: 22px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+/* Image Styles */
+.hero-right img {
+  width: 300px;
+  height: 300px;
+}
